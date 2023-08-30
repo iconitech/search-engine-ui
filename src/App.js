@@ -16,13 +16,18 @@ function App() {
       {/* Banner */}
       <AppBar position="static" color="primary">
         <Toolbar>
-          <Typography variant="h6">Acme Company</Typography>
+          <Typography variant="h6">IntraFind Software</Typography>
           <Box flexGrow={1} />
           <AccountCircle fontSize="large" />
         </Toolbar>
       </AppBar>
       <Box m={2} />
       <SearchBar />
+      <Box display="flex" justifyContent="center" mb={3}>
+        <Box width="80%">
+          <Typography variant="body2">Results: 9,785</Typography>
+        </Box>
+      </Box>
       <Container>
         <Grid container spacing={3}>
           <Grid item xs={4}>
